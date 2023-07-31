@@ -1,0 +1,131 @@
+body {
+		 color: #eee;
+		 background: #0a0b11;
+	}
+	
+body .post-title a:link, a:visited {
+		 color: #0063cc;
+	}
+	
+#collection .post-title a {
+               color: #eee;
+}
+	
+#collection {
+		 color: #eee;
+	}
+	
+#collection pre {
+		 background: #0063cc;
+	}
+
+body h1 a, body header h2 a {
+		 color: #0063cc;
+	}
+	
+body h1 a:hover, body header h2 a:hover {
+		 color: #0063cc;
+	}
+	
+body h1 a:visited, body header h2 a:visited {
+		 color: #0063cc;
+	}
+	
+body #manage ul a, body .dropdown-nav ul a, body #manage ul ul a, body #manage ul a {
+		 color: #0063cc;
+	}
+	 
+body .dropdown-nav ul ul, body .dropdown-nav ul li:hover, body #manage ul ul, body #manage ul ul li:hover, body #manage ul li:hover {
+		 background: #0a0b11;
+	}
+
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+		 color: #0063cc;
+	}
+	
+body a {
+		 color: #0063cc;
+	}
+	
+body a:visited {
+		 color: #0063cc;
+	}
+	
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+		 color: #0063cc;
+	}
+	
+body #official-writing ul.collections li.collection a.title:link, body #official-writing ul.collections li.collection a.title:visited, body #wrapper ul.collections li.collection a.title:link, body #wrapper ul.collections li.collection a.title:visited {
+		 color: #0063cc;
+	}
+	 
+body #official-writing ul.collections li a.create, body #wrapper ul.collections li a.create {
+		 color: #0063cc;
+	}
+	 
+body#me #official-writing h2 a:link, body#me #official-writing h2 a:visited {
+		 color: #0063cc;
+	}
+	 
+
+input {
+		 background: #0a0b11;
+		 color: #0063cc;
+	}
+	
+#manage ul ul li img {
+		 filter: invert(1);
+	}
+	
+#post code, #collection code, #subpage code {
+                 background: #0a0b11;
+		 color: #0063cc;
+    }
+
+.book {
+	display: none;
+}
+
+.read-more {
+	display: none;
+}
+
+.h-entry {
+	justify-content: space-between;
+	display: flex;
+}
+
+body#collection #wrapper article,
+body#subpage #wrapper article {
+	margin-bottom: 1em;
+}
+
+.dt-published {
+	flex-shrink: 0;
+}
+
+* {
+	font-family: sans-serif!important
+}
+
+@media screen and (max-width: 700px) {
+	.h-entry {
+		display: block
+	}
+	body#collection #wrapper time,
+	body#subpage #wrapper time {
+		font-size: 0.9em;
+	}
+	.post-title {
+		font-size: 1.2rem;
+	}
+	body#collection #wrapper article,
+	body#subpage #wrapper article {
+		margin-bottom: 1.5em;
+	}
+}
+
+#emailsub {
+	text-align: center;
+	margin-top: 50px;
+}
